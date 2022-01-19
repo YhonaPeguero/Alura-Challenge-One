@@ -1,0 +1,66 @@
+body {
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  background-color: #5e6a6c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-box,
+.msg-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.text-input {
+  width: 100%;
+  height: 70px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.main {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+span,
+h2 {
+  color: white;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+a {
+  color: white;
+  margin: 5px;
+}
+
+.footer-site {
+  text-align: center;
+  margin: 100px 0;
+}
