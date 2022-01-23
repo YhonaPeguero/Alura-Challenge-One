@@ -1,6 +1,7 @@
 body {
   background-image: url("../assets/bg.jpg");
   background-size: cover;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -62,5 +63,5 @@ a {
 
 .footer-site {
   text-align: center;
-  margin: 100px 0;
+  margin: 110px 0;
 }
